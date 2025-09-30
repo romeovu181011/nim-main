@@ -20,6 +20,7 @@ type BlogPost = {
   description: string
   link: string
   uid: string
+  coverImage?: string
 }
 
 type SocialLink = {
@@ -59,6 +60,20 @@ export const WORK_EXPERIENCE: WorkExperience[] = [
 ]
 
 export const BLOG_POSTS: BlogPost[] = [
+  {
+    title: 'DỰ ĐOÁN NĂM 2026 (phần 2)',
+    description: 'Sau dự đoán đầu tiên cho năm 2026 của chúng ta về việc biến động về tài chính và tài sản.',
+    link: '/blog/du-doan-nam-2026-phan-2',
+    uid: 'blog-6',
+    coverImage: '/post1.jpg',
+  },
+  {
+    title: 'DỰ ĐOÁN TÌNH HÌNH NĂM 2026',
+    description: 'Hôm nay, mình trải một quẻ bài dự đoán tình hình đời sống và kinh tế của chúng ta trong giai đoạn tới.',
+    link: '/blog/du-doan-tinh-hinh-nam-2026',
+    uid: 'blog-5',
+    coverImage: '/post4.jpg',
+  },
   {
     title: 'Exploring the Intersection of Design, AI, and Design Engineering',
     description: 'How AI is changing the way we design',
