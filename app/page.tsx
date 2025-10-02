@@ -136,10 +136,19 @@ export default function Personal() {
         variants={VARIANTS_SECTION}
         transition={TRANSITION_SECTION}
       >
-        <div className="flex-1">
-          <p className="text-zinc-600 dark:text-zinc-400">
-            Hi, mình là Khoa!
-          </p>
+        <div className="flex items-center justify-between">
+          <div className="flex-1">
+            <p className="text-3xl font-medium text-zinc-800 dark:text-zinc-200">
+              Hi, mình là Khoa!
+            </p>
+          </div>
+          <Image
+            src="https://ik.imagekit.io/romeovu181011/Hoc%20lap%20trinh%20voi%20Ai/khoa.jpg?updatedAt=1759411340462"
+            alt="Khoa's personal photo"
+            width={160}
+            height={160}
+            className="rounded-full object-cover"
+          />
         </div>
       </motion.section>
 
